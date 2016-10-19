@@ -1,0 +1,19 @@
+<div ng-controller="CommentController"border:1pxsolidblack;>
+	Comments
+	<table border="1">
+		<tr>
+			<th>post id</th>
+			<th>id</th>
+			<th>name</th>
+			<th>email</th>
+			<th>body</th>
+		</tr>
+		<tr ng-repeat="row in comments">
+			<td><span>{{row.postId}}</span></td>
+			<td><span>{{row.id}}</span></td>
+			<td><span>{{row.name}}</span></td>
+			<td><span>{{row.email}}</span></td>
+			<td><span>{{row.body}}</span></td>
+		</tr>
+	</table>
+</div>

@@ -1,0 +1,17 @@
+<div ng-controller="PostController">
+	<input type="button" name="back" ng-click="loadPosts($event)" /> <input
+		ng-model="page" type="text" ng-init="page='1'" /> <input
+		type="button" name="forward" ng-click="loadPosts($event)" />
+	<table>
+		<tr>
+			<th>post id</th>
+			<th>title</th>
+			<th>message</th>
+		</tr>
+		<tr ng-repeat="row in posts">
+			<td><span><a href="#/comment/{{row.id}}">{{row.id}}</a></span></td>
+			<td><span>{{row.title}}</span></td>
+			<td><span>{{row.body}}</span></td>
+		</tr>
+	</table>
+</div>

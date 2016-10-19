@@ -1,0 +1,9 @@
+com\angularjs\app\EmailValidatorService.class
+com\angularjs\app\Post.class
+com\angularjs\app\PostCache.class
+com\angularjs\app\Comment.class
+com\angularjs\app\PostRestService$1.class
+com\angularjs\app\EmailData.class
+com\angularjs\app\PostCache$1.class
+com\angularjs\app\NumberSumService.class
+com\angularjs\app\PostRestService.class
