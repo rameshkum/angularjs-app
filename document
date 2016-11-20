@@ -1,6 +1,6 @@
 Techologies:
 ------------
-Maven, Jetty, angularjs.
+Maven, Jetty, Maven-Jetty plugin, angularjs.
 
 Accessing posts using angularjs:-
 
