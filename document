@@ -1,3 +1,7 @@
+Techologies:
+------------
+Maven, Jetty, angularjs.
+
 Accessing posts using angularjs:-
 
 http://localhost:8082/angularjs-app   - Routing is default to post.html url
