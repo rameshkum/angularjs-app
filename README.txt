@@ -1,2 +1,2 @@
-This application is built on
-angularjs, restful and maven.
+This application is built on angularjs, restful and maven:
+----------------------------------------------------------
