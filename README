@@ -1,11 +1,6 @@
 Project Installation Instructions:
 ----------------------------------
 This project uses angular-js, jax-rs and maven.
-===Fix-34 Brach==
 Maven is used to build the project.
 AngularJS is used to for UI layer.
 JAX-RS is used to create restful webservices.
-==fix-01 barnch==
-This is the fix-01 branch changes
-==fix-02 barcn===
-These are fix-02 branch changes
