@@ -7,7 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>angularjs-app Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-
+	<!-- Project dependency jars -->
 	<dependencies>
 		<dependency>
 			<groupId>javax</groupId>
