@@ -14,7 +14,7 @@ import org.apache.commons.validator.routines.EmailValidator;
 /**
  * http://localhost:8082/angularjs-app/#/email
  * @author srinivas.yerra
- *
+ * EmailValidatorService webservice validates the email.
  */
 @Path("emailService")
 public class EmailValidatorService {
