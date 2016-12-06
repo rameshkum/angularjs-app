@@ -11,12 +11,16 @@ import javax.ws.rs.core.MediaType;
  * 
  * @author srinivas.yerra
  *
+ * NumberService is exposed as a webservice.
  */
 @Path("sum")
 public class NumberSumService {
 
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
+	/**
+	 * @return sum of digits in a number
+	 */
 	public int sum(@QueryParam("number") int number) {
 		int _result = total(number);
 		return _result;
