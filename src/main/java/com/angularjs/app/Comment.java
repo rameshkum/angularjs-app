@@ -6,6 +6,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 /**
  * 
  * @author srinivas.yerra
+ * 
+ * comment class is used to transform xml to JSON
  *
  */
 @XmlRootElement
