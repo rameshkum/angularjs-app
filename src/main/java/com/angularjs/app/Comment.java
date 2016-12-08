@@ -10,21 +10,37 @@ import javax.xml.bind.annotation.XmlRootElement;
  * comment class is used to transform xml to JSON
  *
  */
+
 @XmlRootElement
 public class Comment {
 
+	/**
+	 *PostId
+	 */
 	@XmlElement(name = "postId")
 	private String postId;
 
+	/**
+	 *Message ID
+	 */
 	@XmlElement(name = "id")
 	private String id;
 
+	/**
+	 *Commenter name
+	 */
 	@XmlElement(name = "name")
 	private String name;
 
+	/**
+	 *Commenter email
+	 */
 	@XmlElement(name = "email")
 	private String email;
 
+	/**
+	 * Comment
+	 */
 	@XmlElement(name = "body")
 	private String body;
 
